@@ -1,0 +1,21 @@
+.hamburger {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    background-image: url(../img/more.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    display: none;
+
+    &--active {
+        background-image: url(../img/Group.png);
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .hamburger {
+        display: inline-block;
+    }
+}
